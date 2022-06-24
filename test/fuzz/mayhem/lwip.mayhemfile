@@ -1,0 +1,7 @@
+project: lwip-tcpip
+target: lwip-fuzz
+
+cmds:
+  - cmd: /lwip_fuzz @@
+  - cmd: /lwip_fuzz2 @@
+  - cmd: /lwip_fuzz3 @@
